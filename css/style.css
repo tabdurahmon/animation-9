@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.gradient {
+  padding: 20px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #ff5733, #ff006c, #b133ff);
+  background-size: 200% 100%;
+  animation: gradientBg 4s linear infinite;
+}
+
+@keyframes gradientBg {
+  0% {
+    background-position: 200% 0;
+  }
+
+  100% {
+    background-position: -200% 0;
+  }
+}
